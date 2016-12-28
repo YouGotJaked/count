@@ -12,13 +12,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char* argv[]) { //insert comment
+int main(int argc, char* argv[]) {
     
     char c;
     int count;
     
     FILE * file; //creates a pointer for the text file to be read
-    file = fopen(argv[1], "r"); //insert comment
+    file = fopen(argv[1], "r");
     
     if (file == 0) { //if fopen returns 0, the null value, the program fails
         printf("Cannot open this file\n");
